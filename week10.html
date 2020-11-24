@@ -1,0 +1,64 @@
+<html>
+<head>
+<style>
+
+body{
+  background-image:url(pic2.jpg);
+}
+.screen{
+  background-color:black;
+  border:solid black 1px;
+  width:160px;
+}
+.special{
+  background-color:blue;
+  border:solid blue 1px;
+  width:40px
+  height:30px;
+}
+.normal{
+  background-color:white
+  border:solid green 1px;
+  width:40px;
+  height:30px;
+}
+</style>
+<script>
+  
+function lclick(e){
+  scr.value = scr.value+e.value;
+}
+function clr(e){
+  scr.value =""
+}
+</script>
+</head>
+<body>
+ <input class="screen" type="textarea" id="scr"><br/>
+ <input class="special" type="button"  value="(" onclick="lclicl(this)">
+ <input class="special" type="button"  value=")" onclick="lclicl(this)"> 
+ <input class="special" type="button"  value="%" onclick="lclicl(this)"> 
+ <input class="special" type="button"  value="C" onclick="clr(this)">
+ <br/>
+ <input class="normal" type="button"  value="7" onclick="lclicl(this)"> 
+ <input class="normal" type="button"  value="8" onclick="lclicl(this)"> 
+ <input class="normal" type="button"  value="9" onclick="lclicl(this)"> 
+ <input class="special" type="button"  value="/" onclick="lclicl(this)">
+ <br/>
+ <input class="normal" type="button"  value="4" onclick="lclicl(this)"> 
+ <input class="normal" type="button"  value="5" onclick="lclicl(this)"> 
+ <input class="normal" type="button"  value="6" onclick="lclicl(this)"> 
+ <input class="special" type="button"  value="*" onclick="lclicl(this)">
+ <br/>
+ <input class="normal" type="button" value="1" onclick="lclicl(this)">
+ <input class="normal" type="button"  value="2" onclick="lclicl(this)"> 
+ <input class="normal" type="button"  value="3" onclick="lclicl(this)"> 
+ <input class="special" type="button"  value="-" onclick="lclicl(this)">
+ <br/>
+ <input class="normal" type="button"  value="0" onclick="lclicl(this)"> 
+  <input class="special" type="button"  value="." onclick="lclicl(this)"> 
+   <input class="special" type="button"  value="❤ "> 
+ <input class="special" type="button"  value="+" onclick="lclicl(this)">    
+  
+</body>
+</html>
